@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(57, 62, 70)
+}
+h1{
+    font-family: Lobster, cursive;
+    text-shadow: rgb(35, 41, 49) 5px 0px;
+    font-size: 8rem;
+    color: rgb(78, 204, 163);
+    margin: 30px
+}
+.dice{
+    display: inline-block;
+    text-align: center;
+}
+.img1{
+    padding: 10px 0px 0px 20px ;
+}
+.img1{
+    padding: 10px 20px 0px 0px ;
+}
+
+p{
+    
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 2rem;
+    color: rgb(78, 204, 163);
+    font-family: "Indie Flower", cursive
+}
+footer{    
+        margin-top: 5%;
+        color: rgb(238, 238, 238);
+        text-align: center;
+        font-family: "Indie Flower", cursive;
+        margin-bottom: 50px;
+}
+.dice{
+    margin-left: 100px;
+}
+@media only screen and (max-width:700px) {
+   h1{
+    font-size: 2rem ;
+    margin: 0px;
+    padding: 0px;
+   }
+   .dice{
+    margin-left: 0px;
+   }
+   p{
+    padding:0px;
+   }
+   img{
+    width: 30%;
+    height: 30%;
+   }
+}
